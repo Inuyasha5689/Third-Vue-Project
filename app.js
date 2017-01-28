@@ -13,8 +13,8 @@ new Vue({
             this.x = event.clientX;
             this.y = event.clientY;
         },
-        dummy: function(event) {
-            event.stopPropagation();
-        }
+        alertMe: function() {
+            alert('Alert!');
+        },
     }
 });
